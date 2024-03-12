@@ -31,6 +31,7 @@ local core_conf_files = {
   "mappings.lua", -- all the user-defined mappings
   "plugins.vim", -- all the plugins installed and their configurations
   "colorschemes.lua", -- colorscheme settings
+  "custom.vim"
 }
 
 local viml_conf_dir = vim.fn.stdpath("config") .. "/viml_conf"
